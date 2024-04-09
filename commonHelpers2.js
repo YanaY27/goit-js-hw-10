@@ -1,0 +1,2 @@
+import"./assets/styles-40c884bc.js";import{i as t}from"./assets/vendor-d07556bb.js";document.querySelector(".form").addEventListener("submit",function(i){i.preventDefault();const s=+this.elements.delay.value,o=this.elements.state.value;new Promise((e,r)=>{setTimeout(()=>{o==="fulfilled"?e(s):r(s)},s)}).then(e=>{t.success({title:"Success",message:`✅ Fulfilled promise in ${e}ms`})}).catch(e=>{t.error({title:"Error",message:`❌ Rejected promise in ${e}ms`})})});
+//# sourceMappingURL=commonHelpers2.js.map
