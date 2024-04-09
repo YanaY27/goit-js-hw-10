@@ -5,9 +5,97 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: Montserrat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #fff;
+  line-height: 1.5;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.timer {
+  display: flex;
+  gap: 30px;
+  font-size: 25px;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+a {
+  display: block;
+  color: inherit;
+  margin-bottom: 30px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(116, 116, 220);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 15px;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #c2bebe;
+}
+
+.fieldset {
+  border-radius: 4px;
+stroke-width: 1px;
+stroke: #808080;
+width: 360px;
+height: 78px;
+margin-bottom: 24px;
+}
+
+.label-promise {
+gap: 48px;
+}
+
+.label-snack {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+
+}
+
+
+
+
+/* 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -23,3 +111,56 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.timer {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24px;
+width: 346px;
+height: 72px;
+}
+
+.input-timer {
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 8px;
+width: 355px;
+height: 40px;
+border-radius: 4px;
+width: 272px;
+height: 40px;
+}
+
+.field {
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 0px;
+}
+
+.text-input  {
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.btn {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+border-radius: 8px;
+padding: 8px 16px;
+/* width: 75px;
+height: 40px; */
+/* background: #cfcfcf;
+} */ 
