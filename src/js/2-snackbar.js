@@ -4,7 +4,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 document.querySelector('.form').addEventListener('submit', function (event) {
   event.preventDefault();
 
-  const delay = +this.elements.delay.value;
+  const delay = Number(this.elements.delay.value);
 
   const state = this.elements.state.value;
 
